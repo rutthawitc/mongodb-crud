@@ -1,33 +1,7 @@
 import { FiEdit2 } from 'react-icons/fi';
-import RemoveBtn from './elements/RemoveBtn';
+import RemoveBtn from '@/components/elements/RemoveBtn';
 import Link from 'next/link';
 import { getTopics } from '@/libs/getTopics';
-
-// const getTopics = async () => {
-//   try {
-//     const res = await fetch('http://localhost:3000/api/topics', {
-//       cache: 'no-store',
-//     });
-
-//     if (!res.ok) {
-//       throw new error('Error to load');
-//     }
-
-//     return res.json();
-//   } catch (error) {
-//     console.log('Error Loading: ', error);
-//   }
-// };
-//!FIX-----
-// export async function getStaticProps() {
-//   const topics = await getTopics();
-//   console.log(topics);
-//   return {
-//     props: {
-//       topics,
-//     },
-//   };
-// }
 
 const TopicsList = async () => {
   const { topics } = await getTopics();

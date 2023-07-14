@@ -1,4 +1,4 @@
-import EditTopicForm from '@/components/modules/EditTopicForm';
+import EditTopicForm from '@/components/EditTopicForm';
 import { getTopicByID } from '@/libs/getTopics';
 
 const EditTopic = async ({ params }) => {
