@@ -1,5 +1,5 @@
 import { FiEdit2 } from 'react-icons/fi';
-import RemoveBtn from '../elements/RemoveBtn';
+import RemoveBtn from './elements/RemoveBtn';
 import Link from 'next/link';
 import { getTopics } from '@/libs/getTopics';
 

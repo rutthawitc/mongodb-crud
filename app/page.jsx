@@ -1,9 +1,5 @@
-import TopicsList from '@/components/modules/TopicList';
+import TopicsList from '@/components/TopicList';
 
 export default function Home() {
-  return (
-    <>
-      <TopicsList />
-    </>
-  );
+  return <TopicsList />;
 }
